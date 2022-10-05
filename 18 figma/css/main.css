@@ -1,0 +1,10 @@
+.container {
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}/*# sourceMappingURL=main.css.map */
