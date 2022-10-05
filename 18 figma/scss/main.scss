@@ -62,13 +62,12 @@ select.textInput {
     color: rgba(57, 20, 0, 0.64);
   }
   &.area {
+    box-sizing: border-box;
     min-height: 96px;
-    resize: vertical;
+    resize: none;
+    color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-}
-textarea {
-  width: 100%;
 }
 @media screen and (min-width: 800px) {
   .container {

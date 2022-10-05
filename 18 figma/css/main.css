@@ -24,7 +24,6 @@ select {
 
 textarea {
   min-height: 5rem;
-  min-width: 300px;
   resize: vertical;
 }
 
@@ -133,13 +132,12 @@ select.textInput {
   color: rgba(57, 20, 0, 0.64);
 }
 .textInput.area {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   min-height: 96px;
-  resize: vertical;
+  resize: none;
+  color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-textarea {
-  width: 100%;
 }
 
 @media screen and (min-width: 800px) {
